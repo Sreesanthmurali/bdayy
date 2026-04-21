@@ -1,6 +1,6 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Camera, RefreshCw, Copy, ExternalLink, Sparkles } from 'lucide-react';
-import { AppPayload } from '../App';
+import type { AppPayload } from '../App';
 
 const THEMES = ['Night Sparkle', 'Pastel Party', 'Golden Glow', 'Nature Calm'];
 const RECIPIENTS = ['Her 🎀', 'Him 🎯', 'Best friend 🤝', 'Partner ❤️', 'Sibling 🌟', 'Someone special ✨'];

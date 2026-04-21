@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
-import { AppPayload } from '../App';
+import type { AppPayload } from '../App';
 import InteractiveCake from './InteractiveCake';
 import { Play } from 'lucide-react';
 
